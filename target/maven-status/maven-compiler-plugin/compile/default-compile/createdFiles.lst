@@ -1,0 +1,6 @@
+com\examen\time\TimeApplication.class
+com\examen\time\config\SecurityConfig.class
+com\examen\time\repository\TimeTrackingRepository.class
+com\examen\time\service\TimeTrackingService.class
+com\examen\time\entity\TimeTrackingEntity.class
+com\examen\time\controller\TimeTrackingController.class
