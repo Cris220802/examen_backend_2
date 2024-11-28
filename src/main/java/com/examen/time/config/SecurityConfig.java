@@ -45,7 +45,7 @@ public class SecurityConfig {
                                                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                                 .authorizeHttpRequests(http -> {
                                         http
-                                                        .requestMatchers("/swagger-ui/**", "/swagger-ui.html")
+                                                        .requestMatchers("/swagger-ui/**", "/swagger-ui.html", "/v3/api-docs/**", "/v3/api-docs.yaml", "/v3/api-docs.json")
                                                         .permitAll()
                                                         .requestMatchers(HttpMethod.GET, "/api/v1/time/**")
                                                         .hasAnyAuthority("READ")
